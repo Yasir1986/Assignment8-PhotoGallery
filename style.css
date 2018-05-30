@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+}
+
+#heading{
+	color: black;
+	position: absolute;
+	margin-left: 450px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("bimg/group1.jpg");background-repeat: no-repeat;background-size:cover;
+}
+
+#b1{
+	background-image: url("bimg/group2.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+ }
+
+#b2{ background-image: url("bimg/group1.jpg");
+	 background-repeat: no-repeat;
+	 background-size:cover;
+ }
+ 
+#gallery-image{
+	width: 160px;
+	height: 160px;
+	border: 2px black solid;
+}
+
+.main{
+	width:100%;
+	height:100px;
+	margin: 0 auto;
+}
+
+#lower-div{ 
+	color: black;
+	position: fixed;
+	top: 1px;
+	margin-top: 60px;
+	margin-left: 5px;
+} 
+
+#gallery-details{
+	color: black;
+	border: 1px solid black;
+	background-color: rgba(230, 233, 223, 0.987);
+	margin-top: 5px;
+	text-align: center;
+	padding: 2px;
+
+}
+
+#buttons{
+	margin-left: 35px;
+}
